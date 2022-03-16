@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(181, 212, 213);
+}
+
+/* index.html */
+.body {
+    justify-content: center;
+    padding: 5rem 5rem;
+    margin: 5rem 5rem;
+    border: 3px solid rgb(124, 124, 124);
+    border-radius: 3px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'PT Serif', serif;
+    color: #6C9D91;
+    text-align: center;
+    padding: 1rem;
+}
+
+h2 {
+    font-family: 'PT Serif', serif;
+    color: rgb(65, 65, 65);
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+hr {
+    color: gray;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+
+a {
+    font-family: 'PT Serif', serif;
+    text-decoration: none;
+    color: #937362;
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+
+a:hover {
+ color: cadetblue;
+}
+
+h3 {
+    font-family: 'PT Serif', serif;
+    padding-top: 2.2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(84, 84, 84);
+}
+
+.about-paragraph {
+    padding: 1rem 4rem;
+    padding-top: 2rem;
+    text-align: justify;
+    font-family: 'PT Serif', serif;
+    color: gray;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem 4rem;
+    padding-top: 2rem;
+    font-family: 'PT Serif', serif;
+    color: gray;
+}
+
+/* experience.html */
+.work-experience {
+    padding-top: 1rem;
+}
+.job {
+    font-family: 'PT Serif', serif;
+    padding: 1rem 4rem;
+    color: darkslategrey;
+}
+
+.title {
+    color: #6C9D91;
+    padding-bottom: .5rem;
+    font-size: 1.2rem;
+}
+.company {
+    padding-bottom: .3rem;
+}
+
+.description {
+    text-align: justify;
+}
+
+/* contact.html */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 2rem;
+}
+
+input {
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+    padding: 6px;
+    border: 2px solid darkgrey;
+    border-radius: 2px;
+}
+
+.message {
+    padding-bottom: 3rem;
+}
+
+.button1 {
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+    border: 2px solid #bfcdc9;
+    border-radius: 2px;
+    background-color: #6C9D91;
+    color: rgb(255, 255, 255);
+    height: 2rem;
+    width: 5rem;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    gap: 4rem;
+}
+
+.button2 {
+    border: 2px solid #bfcdc9;
+    border-radius: 2px;
+    background-color: #6C9D91;
+    height: 2rem;
+}
+
+.link {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.link:hover {
+    color: #e4bba5;
+}
+
+.reach-me {
+    font-family: 'PT Serif', serif;
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(84, 84, 84);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media query*/
+@media (max-width: 600px) {
+    .body {
+        padding: 1rem 1rem;
+        margin: 1rem 1rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    .about-paragraph {
+        padding: 1rem 2rem;
+    }  
+    .job {
+        padding: 1rem 1.2rem;
+    }
+}
