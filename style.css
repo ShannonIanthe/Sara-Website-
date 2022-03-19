@@ -90,6 +90,15 @@ ul {
 .work-experience {
     padding-top: 1rem;
 }
+
+.education {
+    display: flex;
+    font-size: 1.5rem;
+    font-family: 'PT Serif', serif;
+    color: #684a39;
+    text-decoration: underline;
+    padding-bottom: .5rem;
+}
 .job {
     font-family: 'PT Serif', serif;
     padding: 1rem 4rem;
@@ -200,6 +209,12 @@ input {
     .about-paragraph {
         padding: 1rem 2rem;
     }  
+    .education {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+        text-decoration: underline;
+    }
     .job {
         padding: 1rem 1.2rem;
     }
